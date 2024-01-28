@@ -102,5 +102,5 @@ def generate_pdf_route():
         print("Error in generate_pdf_route:", str(e))
         return jsonify({'error': 'Failed to generate PDF'}), 500
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=6969)
+# if __name__ == '__main__':
+#     app.run(debug=True, host='0.0.0.0', port=6969)
