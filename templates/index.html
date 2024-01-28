@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU Result by A&P</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="headerclr">
+        <header>
+        </header>
+    </div>
+    <div class="container">
+        <img src="/static/images/diulogoside.png" alt="server error!" height="100px" align-item="center">
+        <h1>Result Viewer</h1>
+        <form id="resultForm">
+            <label for="input-type">Select Input Type:</label>        
+            <select id="input-type">
+                <option value="individual-result">Select Result</option>
+                <option value="individual-result">Individual Result</option>
+                <option value="individual-result">Section Result</option>
+            </select>
+            <label for="semester">Select Semester:</label>
+            <select id="semester"></select>
+            <label for="id">Enter ID:</label>
+            <input type="text" id="id" name="id" placeholder="Enter your ID..." required>            
+            <button type="button" id="submitButton">Submit</button>
+        </form>
+        <div class="stinfo">
+            <p id="studentInfo"></p>
+        </div>
+        <div class="resultTable"></div>
+        <button id="downloadButton" style="display: none;">Download PDF</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

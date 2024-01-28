@@ -1,0 +1,176 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    width: auto;
+    max-width: 100%;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #009933;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0px;
+    color: #333;
+}
+
+label:hover {
+    color: #00fd48;
+    cursor: pointer;
+}
+
+select,
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #555;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
+
+.green-bg {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.info-container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#submitButton {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#submitButton:hover {
+    background-color: #39B24A;
+    color: white;
+}
+
+#iptp:hover {
+    background-color: #33B5FF;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        flex-direction: column;
+    }
+
+    select,
+    input[type="text"],
+    input[type="submit"] {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+#downloadButton{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 15px;
+}
+#downloadButton:hover{
+    background-color: #39B24A;
+    color: white;
+}
