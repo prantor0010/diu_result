@@ -1,0 +1,6 @@
+# rice_disease.yaml
+train: /kaggle/input/dhan-field/White Background/White Background/train  # Adjust the path as needed
+val: /kaggle/input/dhan-field/White Background/White Background/test  # Adjust the path as needed
+
+nc: 5  # Number of classes
+names: ['Brown Spot', 'Leaf Scaled', 'Rice Blast', 'Rice Tungro', 'Shath Blight']
